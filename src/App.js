@@ -21,9 +21,9 @@ function App() {
   return (
 
     <div className='border-[15px] border-white'>
+      <ParticlesBackground />
       <Navbar />
       <Home />
-      <ParticlesBackground />
       <About />
       <Skills />
       <Projects />

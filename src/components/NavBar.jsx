@@ -9,7 +9,7 @@ const Navbar = () => {
         setNav(!nav)
     }
     return (
-        <div className='flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4 bg-transparent' data-aos='fade-down' data-aos-delay="400">
+        <div className='flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4' data-aos='fade-down' data-aos-delay="400">
             <h1 className='text-4xl font-bold text-[#ff7b9e]'>
                 <Link to='home' smooth={true} duration={500}>
                     &lt;tharun/&gt;
@@ -45,16 +45,15 @@ const Navbar = () => {
             </ul>
 
             <div onClick={handleNav} className='block md:hidden'>
-                {!nav ? <AiOutlineMenu className='absolute right-[40px] text-white' size={23} /> : <AiOutlineClose className='absolute right-[40px] text-white' size={23} />}
+                {!nav ? <AiOutlineMenu className='text-white' size={23} /> : <AiOutlineClose className='text-white' size={23} />}
             </div>
-            <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+            <div className={nav ? 'fixed left-0 top-0 w-[60%] h-screen border-2 border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
                 <h1 className='w-full text-3xl font-bold text-[#ff7b9e] mt-8 mb-4 px-4'>&lt;tharun/&gt;</h1>
-                <ul className='uppercase p-4'>
+                <ul className='uppercase p-4 text-white'>
                     <li className='p-4 border-b border-gray-500 cursor-pointer text-white'><Link smooth={true} duration={500} to="home" >Home</Link></li>
                     <li className='p-4 border-b border-gray-500 cursor-pointer text-white'><Link smooth={true} duration={500} to="about" >About</Link></li>
                     <li className='p-4 border-b border-gray-500 cursor-pointer text-white'><Link smooth={true} duration={500} to="skills" >Skills</Link></li>
                     <li className='p-4 border-b border-gray-500 cursor-pointer text-white'><Link smooth={true} duration={500} to="projects" >Projects</Link></li>
-                    <li className='p-4 border-b border-gray-500 cursor-pointer text-white'><Link smooth={true} duration={500} to="contact" >Contact</Link></li>
                     <li className='p-4'>Contact</li>
                 </ul>
             </div>
