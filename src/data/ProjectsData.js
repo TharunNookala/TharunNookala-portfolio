@@ -21,8 +21,7 @@ export const ProjectsData = [
         name: "Worldwise",
         image: Worldwise,
         techstack: "React, Css",
-        description: "About
-A web app where we can track the places that we visited and add some notes about it. Built using react. We can locate a position in the map and add / delete city. Context API and use Reducer are used for state management.",
+        description: "A web app where we can track the places that we visited and add some notes about it. Built using react. We can locate a position in the map and add / delete city. Context API and use Reducer are used for state management.",
         github: "https://github.com/TharunNookala/worldwise",
         live: "https://tharunnookala-worldwise.netlify.app/",
     },
