@@ -1,4 +1,5 @@
 import EatNSplit from '../assets/eat-n-split_1.png';
+import Worldwise from '../assets/Worldwise.png';
 import LandingPage from '../assets/react-tailwind_1.png';
 import NetflixClone from '../assets/netflix-clone_1.png';
 import CrwnStore from '../assets/crwn-store_1.png';
@@ -15,8 +16,18 @@ export const ProjectsData = [
         github: "https://github.com/TharunNookala/Eat-N-Split",
         live: "https://tharunnookala-eat-n-split.netlify.app/",
     },
-    {
+ {
         id: 2,
+        name: "Worldwise",
+        image: Worldwise,
+        techstack: "React, Css",
+        description: "About
+A web app where we can track the places that we visited and add some notes about it. Built using react. We can locate a position in the map and add / delete city. Context API and use Reducer are used for state management.",
+        github: "https://github.com/TharunNookala/worldwise",
+        live: "https://tharunnookala-worldwise.netlify.app/",
+    },
+    {
+        id: 3,
         name: "Landing Page",
         image: LandingPage,
         techstack: "React, Tailwind Css",
@@ -25,7 +36,7 @@ export const ProjectsData = [
         live: "https://tharunnookala-analytics-landing-page.netlify.app/",
     },
     {
-        id: 3,
+        id: 4,
         name: "Netflix Clone",
         image: NetflixClone,
         techstack: "React, Tailwind CSS, Redux, Firebase",
@@ -34,7 +45,7 @@ export const ProjectsData = [
         live: "https://tharunnookala-netflix-clone.netlify.app/",
     },
     {
-        id: 4,
+        id: 5,
         name: "Crwn-Store",
         image: CrwnStore,
         techstack: "React, Redux, Firebase, CSS",
@@ -43,7 +54,7 @@ export const ProjectsData = [
         live: "https://github.com/TharunNookala/crown-store",
     },
     {
-        id: 5,
+        id: 6,
         name: "Image Snapshot",
         image: ImageSnapshot,
         techstack: "React, CSS",
@@ -52,7 +63,7 @@ export const ProjectsData = [
         live: "https://tharunnookala-image-snapshot.netlify.app/",
     },
     {
-        id: 6,
+        id: 7,
         name: "Form Validation",
         image: FormValidation,
         techstack: "HTML, CSS, JavaScript",
