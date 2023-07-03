@@ -3,10 +3,10 @@ import Resume from '../assets/TharunNookala-Resume.pdf';
 
 const Home = () => {
     return (
-        <div name="home" className=' text-white py-16 px-4'  >
+        <div name="home" className='h-screen text-white py-4 px-4'  >
             <div className='max-w-[1240px] h-[75vh] mx-auto grid md:grid-cols-2 sm:gap-4'>
-                <img className='w-[500px] mx-auto sm:mt-[50px] md:mt-[100px] border-[15px] border-orange-100' src={ProfileImage} alt='/' />
-                <div className='md:mt-[200px]'>
+                <img className='w-[500px] mx-auto mt-[50px] md:mt-[30px] border-[15px] border-orange-100' src={ProfileImage} alt='/' />
+                <div className='md:mt-[100px]'>
                     <p className='font-bold p-2 text-2xl'>Hello! I'm</p>
                     <h1 className='md:text-6xl lg:text-7xl text-4xl font-bold md:py-6 text-white'>
                         Tharun Nookala
