@@ -13,7 +13,7 @@ const list = [
 
 const Skills = () => {
     return (
-        <div name="skills" className='w-full h-screen font-bold items-center justify-center py-4'>
+        <div name="skills" className='w-full md:h-screen font-bold items-center justify-center py-4'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='overflow-hidden items-center whitespace-nowrap'>
                     <ul className='flex md:gap-4 text-white  items-center animate-marquee-infinite px-4 mx-2'>

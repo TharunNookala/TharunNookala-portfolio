@@ -11,7 +11,7 @@ const Projects = () => {
         slider.scrollLeft = slider.scrollLeft + 320
     }
     return (
-        <div name='projects' className='w-full h-full relative p-4 flex items-center text-white group'>
+        <div name='projects' className='w-full h-screen relative p-4 flex items-center text-white group'>
             <MdChevronLeft
                 onClick={sliderLeft}
                 className='rounded-full absolute opacity-60 hover:opacity-100 cursor-pointer z-10 text-black bg-white hidden group-hover:block'
