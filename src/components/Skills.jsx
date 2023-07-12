@@ -2,13 +2,14 @@ import HTML from '../assets/html5.png'
 import CSS from '../assets/css3.png'
 import JavaScript from '../assets/js.png'
 import React from '../assets/react.png'
+import Nextjs from '../assets/Nextjs.png'
 import SASS from '../assets/sass.png'
 import Git from '../assets/git.png'
 import TailwindCss from '../assets/tailwind-css.png'
 import Firebase from '../assets/firebase.png'
 
 const list = [
-    'VS Code', 'Adobe Photoshop', 'Agile', 'Scrum', 'Figma', 'Ms Word', 'Ms Excel', 'Github', 'Collaborative', 'Positive Attitude', 'Self-taught'
+    'VS Code', 'Adobe Photoshop', 'Context API', 'Redux', 'Agile', 'Scrum', 'Figma', 'Github', 'Collaborative', 'Positive Attitude', 'Self-taught'
 ]
 
 const Skills = () => {
@@ -30,7 +31,23 @@ const Skills = () => {
                     <p className='py-4 font-semibold text-xl md:text-3xl text-white'>These are the technologies I've worked with</p>
                 </div>
 
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-2 text-center py-8' data-aos='fade-up'>
+                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-2 text-center py-8' data-aos='fade-up'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
+                        <img className='w-30 my-10 mx-auto h-10' src={Nextjs} alt="Next icon" />
+                        <p className='my-4 mt'>NEXT JS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
+                        <img className='w-20 mx-auto' src={React} alt="React icon" />
+                        <p className='my-4'>REACT JS</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
+                        <img className='w-20 mx-auto' src={JavaScript} alt="JS icon" />
+                        <p className='my-4'>JAVASCRIPT</p>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
+                        <img className='w-20 mx-auto mt-6' src={TailwindCss} alt="TailwindCss icon" />
+                        <p className='my-4'>TAILWIND CSS</p>
+                    </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
                         <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
                         <p className='my-4'>HTML</p>
@@ -41,19 +58,7 @@ const Skills = () => {
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
                         <img className='w-20 mx-auto mt-6' src={SASS} alt="SCSS icon" />
-                        <p className='my-4'>SASS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto' src={JavaScript} alt="JS icon" />
-                        <p className='my-4'>JAVASCRIPT</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto' src={React} alt="React icon" />
-                        <p className='my-4'>REACT</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto mt-6' src={TailwindCss} alt="TailwindCss icon" />
-                        <p className='my-4'>TAILWIND CSS</p>
+                        <p className='my-4'>SCSS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
                         <img className='w-20 mx-auto mt-6' src={Git} alt="Git icon" />

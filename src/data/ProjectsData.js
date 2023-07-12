@@ -1,14 +1,42 @@
 import EatNSplit from '../assets/eat-n-split_1.png';
 import Worldwise from '../assets/Worldwise.png';
+import EasyPizza from '../assets/EasyPizza.png';
+import AtomicBlog from '../assets/AtomicBlog.png';
 import LandingPage from '../assets/react-tailwind_1.png';
 import NetflixClone from '../assets/netflix-clone_1.png';
-import CrwnStore from '../assets/crwn-store_1.png';
 import ImageSnapshot from '../assets/image-snapshot_2.png';
 import FormValidation from '../assets/signup-form_1.png';
 
 export const ProjectsData = [
     {
         id: 1,
+        name: "Easy Pizza",
+        image: EasyPizza,
+        techstack: "React, Redux, Tailwind Css",
+        description: "An online pizza delivery web app where we can order a pizza by providing our details such as name, address and phone number. This is purely cash-on-delivery.",
+        github: "https://github.com/TharunNookala/easy-pizza",
+        live: "https://tharunnookala-easy-pizza.netlify.app/",
+    },
+    {
+        id: 2,
+        name: "Worldwise",
+        image: Worldwise,
+        techstack: "React, Context API, Reducers, Css",
+        description: "A web app where we can track the places that we visited and add some notes about it. Built using react. We can locate a position in the map and add / delete city. Context API and use Reducer are used for state management.",
+        github: "https://github.com/TharunNookala/worldwise",
+        live: "https://tharunnookala-worldwise.netlify.app/",
+    },
+    {
+        id: 3,
+        name: "Atomic Blog",
+        image: AtomicBlog,
+        techstack: "React, Context API, Custom Hooks, CSS",
+        description: "A simple blog site built using react, just to refine my state management skills using Context API. Also built a custom hook of the context by which state is managed (From Jonas Schmedtman latest react course).",
+        github: "https://github.com/TharunNookala/atomic-blog",
+        live: "https://tharunnookala-atomic-blog.netlify.app/",
+    },
+    {
+        id: 4,
         name: "Eat'n Split",
         image: EatNSplit,
         techstack: "React, Tailwind Css",
@@ -16,17 +44,8 @@ export const ProjectsData = [
         github: "https://github.com/TharunNookala/Eat-N-Split",
         live: "https://tharunnookala-eat-n-split.netlify.app/",
     },
- {
-        id: 2,
-        name: "Worldwise",
-        image: Worldwise,
-        techstack: "React, Css",
-        description: "A web app where we can track the places that we visited and add some notes about it. Built using react. We can locate a position in the map and add / delete city. Context API and use Reducer are used for state management.",
-        github: "https://github.com/TharunNookala/worldwise",
-        live: "https://tharunnookala-worldwise.netlify.app/",
-    },
     {
-        id: 3,
+        id: 5,
         name: "Landing Page",
         image: LandingPage,
         techstack: "React, Tailwind Css",
@@ -35,7 +54,7 @@ export const ProjectsData = [
         live: "https://tharunnookala-analytics-landing-page.netlify.app/",
     },
     {
-        id: 4,
+        id: 6,
         name: "Netflix Clone",
         image: NetflixClone,
         techstack: "React, Tailwind CSS, Redux, Firebase",
@@ -44,16 +63,7 @@ export const ProjectsData = [
         live: "https://tharunnookala-netflix-clone.netlify.app/",
     },
     {
-        id: 5,
-        name: "Crwn-Store",
-        image: CrwnStore,
-        techstack: "React, Redux, Firebase, CSS",
-        description: "An e-commerce store built using react. Styled using CSS. State management is done by redux and Data base management is done by Firebase.",
-        github: "https://github.com/TharunNookala/crown-store",
-        live: "https://github.com/TharunNookala/crown-store",
-    },
-    {
-        id: 6,
+        id: 7,
         name: "Image Snapshot",
         image: ImageSnapshot,
         techstack: "React, CSS",
@@ -62,7 +72,7 @@ export const ProjectsData = [
         live: "https://tharunnookala-image-snapshot.netlify.app/",
     },
     {
-        id: 7,
+        id: 8,
         name: "Form Validation",
         image: FormValidation,
         techstack: "HTML, CSS, JavaScript",
