@@ -4,12 +4,14 @@ import JavaScript from '../assets/js.png'
 import React from '../assets/react.png'
 import Nextjs from '../assets/Nextjs.png'
 import SASS from '../assets/sass.png'
-import Git from '../assets/git.png'
+import GIT from '../assets/git.png'
 import TailwindCss from '../assets/tailwind-css.png'
 import Firebase from '../assets/firebase.png'
+import Nodejs from '../assets/nodejs.png'
+import SkillCard from './SkillCard'
 
 const list = [
-    'VS Code', 'Adobe Photoshop', 'Context API', 'Redux', 'Agile', 'Scrum', 'Figma', 'Github', 'Collaborative', 'Positive Attitude', 'Self-taught'
+    'VS Code', 'Context API', 'Reducers', 'Redux', 'Redux Tool Kit', 'React-Router', 'Node JS', 'Mongo DB', 'Figma', 'Github', 'Agile', 'Scrum', 'Collaborative', 'Positive Attitude', 'Self-taught'
 ]
 
 const Skills = () => {
@@ -32,42 +34,16 @@ const Skills = () => {
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-2 text-center py-8' data-aos='fade-up'>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-30 my-10 mx-auto h-10' src={Nextjs} alt="Next icon" />
-                        <p className='my-4 mt'>NEXT JS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto' src={React} alt="React icon" />
-                        <p className='my-4'>REACT JS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto' src={JavaScript} alt="JS icon" />
-                        <p className='my-4'>JAVASCRIPT</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto mt-6' src={TailwindCss} alt="TailwindCss icon" />
-                        <p className='my-4'>TAILWIND CSS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                        <p className='my-4'>HTML</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto' src={CSS} alt="CSS icon" />
-                        <p className='my-4'>CSS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto mt-6' src={SASS} alt="SCSS icon" />
-                        <p className='my-4'>SCSS</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto mt-6' src={Git} alt="Git icon" />
-                        <p className='my-4'>GIT</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-                        <img className='w-20 mx-auto' src={Firebase} alt="Firebase icon" />
-                        <p className='my-4'>Firebase</p>
-                    </div>
+                    <SkillCard src={Nextjs} alt="Next icon" imgStyles={"w-30 my-10 mx-auto h-10"} name={"NEXT JS"}></SkillCard>
+                    <SkillCard src={React} alt="React icon" imgStyles={"w-20 mx-auto mt-4"} name={"React JS"}></SkillCard>
+                    <SkillCard src={JavaScript} alt="JS icon" imgStyles={"w-20 mx-auto"} name={"JavaScript"}></SkillCard>
+                    <SkillCard src={Nodejs} alt="Node icon" imgStyles={"w-20 mx-auto mt-4"} name={"Node JS"}></SkillCard>
+                    <SkillCard src={TailwindCss} alt="Tailwind icon" imgStyles={"w-20 mx-auto mt-7"} name={"Tailwind CSS"}></SkillCard>
+                    <SkillCard src={GIT} alt="Git icon" imgStyles={"w-20 mx-auto mt-6"} name={"GIT"}></SkillCard>
+                    <SkillCard src={Firebase} alt="Firebase icon" imgStyles={"w-20 mx-auto"} name={"Firebase"}></SkillCard>
+                    <SkillCard src={SASS} alt="SCSS icon" imgStyles={"w-20 mx-auto mt-6"} name={"SCSS"}></SkillCard>
+                    <SkillCard src={HTML} alt="HTML icon" imgStyles={"w-20 mx-auto"} name={"HTML"}></SkillCard>
+                    <SkillCard src={CSS} alt="CSS icon" imgStyles={"w-20 mx-auto"} name={"CSS"}></SkillCard>
                 </div>
             </div>
         </div>

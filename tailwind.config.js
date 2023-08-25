@@ -13,7 +13,7 @@ module.exports = {
       },
       animation: {
 
-        'marquee-infinite': 'marquee 10s linear infinite',
+        'marquee-infinite': 'marquee 12s linear infinite',
       },
     },
   },
