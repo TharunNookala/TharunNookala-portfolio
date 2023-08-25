@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div name="about" className="w-full md:h-screen rounded-lg flex flex-col md:flex-row items-center justify-center p-4">
+        <div name="about" className="w-full h-full md:h-screen rounded-lg flex flex-col md:flex-row items-center justify-center p-2">
             <div className=' py-2 my-2 mx-4 border-2 rounded-lg' data-aos='fade-up'>
-                <p className='md:text-2xl text-[15px] md:font-semibold md:w-[400px] text-white p-4'>
+                <p className='lg:text-2xl text-[15px] lg:font-semibold md:w-72 md:text-xl lg:w-[400px] text-white p-4'>
                     I am a passionate Front End Web Developer, with 2 years of professional experience. I'm skilled in various front end technologies such as React JS, Redux,
                     Tailwind CSS which are the most used tech stack for beautiful responsive UI websites built today. Also I have built myself few projects using Next JS, React JS, Redux, Redux Tool Kit, Node JS, Mongo DB. I am also Full Stack(MERN)
                     enthusiast. Out of Office you'll find me spending time with friends, binge watching movies, playing badminton, less-often reading books.
