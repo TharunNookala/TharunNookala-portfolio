@@ -8,8 +8,8 @@ return (
             <NavLink to='/' className="text-white w-[200px] text-xl sm:text-2xl font-bold md:my-6 mx-auto md:mx-0 py-5 text-center rounded-md border">
                 &larr; Back
             </NavLink>
-            <div className='h-full font-anto font-extrabold text-5xl sm:text-6xl text-white py-2 px-4 mb-2'>
-                <span className='text-7xl'> For</span> the past few months I have been doing a couple of assignments as part of hiring process of various companies.
+            <div className='h-full font-anto font-extrabold text-4xl sm:text-6xl text-white py-2 px-4 mb-2'>
+                <span className='text-5xl md:text-7xl'> F</span>or the past few months I have been doing a couple of assignments as part of hiring process of various companies.
             </div>
             <div className='p-2 h-3/5 flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-2 items-start justify-evenly'>
             {assignmentsData.map(assignment => <AssignmentCard 

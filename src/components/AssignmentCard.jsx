@@ -34,7 +34,7 @@ export default function RecipeReviewCard({ name, image, techstack, description, 
     setLiked(!liked);
     notify();
   }
-  const notify = () => toast("Thanks for the like !😊");
+  const notify = () => toast("!😊 Thanks for the like ");
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
