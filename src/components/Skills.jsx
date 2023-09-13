@@ -8,6 +8,7 @@ import GIT from '../assets/git.png'
 import TailwindCss from '../assets/tailwind-css.png'
 import Firebase from '../assets/firebase.png'
 import Nodejs from '../assets/nodejs.png'
+import mongoDB from '../assets/mongoDB.png'
 import SkillCard from './SkillCard'
 
 const list = [
@@ -38,6 +39,7 @@ const Skills = () => {
                     <SkillCard src={React} alt="React icon" imgStyles={"w-20 mx-auto mt-4"} name={"React JS"}></SkillCard>
                     <SkillCard src={JavaScript} alt="JS icon" imgStyles={"w-20 mx-auto"} name={"JavaScript"}></SkillCard>
                     <SkillCard src={Nodejs} alt="Node icon" imgStyles={"w-20 mx-auto mt-4"} name={"Node JS"}></SkillCard>
+                    <SkillCard src={mongoDB} alt="Node icon" imgStyles={"w-50 mx-auto mt-4"} name={"Mongo DB"}></SkillCard>
                     <SkillCard src={TailwindCss} alt="Tailwind icon" imgStyles={"w-20 mx-auto mt-7"} name={"Tailwind CSS"}></SkillCard>
                     <SkillCard src={GIT} alt="Git icon" imgStyles={"w-20 mx-auto mt-6"} name={"GIT"}></SkillCard>
                     <SkillCard src={Firebase} alt="Firebase icon" imgStyles={"w-20 mx-auto"} name={"Firebase"}></SkillCard>

@@ -1,34 +1,25 @@
-import { useEffect } from 'react';
 import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
-import Navbar from './components/NavBar';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Aos from 'aos';
 import 'aos/dist/aos.css'
-import ParticlesBackground from './components/ParticlesBackground';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import AppLayout from './components/AppLayout';
+import Assignments from './components/Assignments';
 
 
 function App() {
-  useEffect(() => {
-    Aos.init({
-      duration: 1800,
-      offset: 0,
-    })
-  }, [])
+
+  const routes = createBrowserRouter([
+    {
+      path: '/',
+      element: <AppLayout />
+    },
+    {
+      path: '/assignments',
+      element: <Assignments />
+    }
+  ])
 
   return (
-    <div className='border-[15px] border-white'>
-      <ParticlesBackground />
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div>
+    <RouterProvider router={routes} />
   );
 }
 

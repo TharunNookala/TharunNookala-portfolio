@@ -15,6 +15,9 @@ module.exports = {
 
         'marquee-infinite': 'marquee 12s linear infinite',
       },
+      fontFamily: {
+        'anto': ['anto', 'sans-serif']
+      },
     },
   },
   plugins: [],
