@@ -3,7 +3,7 @@ import ImageMaskGenerator from "../assets/ImageMaskGenerator.jpg";
 import TransactionTable from "../assets/TransactionTable.jpg";
 import OTTWebsite from "../assets/OTTWebsite.jpg";
 import CSVtoTable from "../assets/CSVtoTable.jpg";
-import Chatbot from "../assets/Chatbot.jpg";
+import Chatbot from "../assets/Chatbot.png";
 
 export const assignmentsData = [
   {
