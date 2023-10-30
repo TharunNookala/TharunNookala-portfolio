@@ -9,6 +9,7 @@ import TailwindCss from '../assets/tailwind-css.png'
 import Firebase from '../assets/firebase.png'
 import Nodejs from '../assets/nodejs.png'
 import mongoDB from '../assets/mongoDB.png'
+import typescript from '../assets/typescript.png'
 import SkillCard from './SkillCard'
 
 const list = [
@@ -38,6 +39,7 @@ const Skills = () => {
                     <SkillCard src={Nextjs} alt="Next icon" imgStyles={"w-30 my-10 mx-auto h-10"} name={"NEXT JS"}></SkillCard>
                     <SkillCard src={React} alt="React icon" imgStyles={"w-20 mx-auto mt-4"} name={"React JS"}></SkillCard>
                     <SkillCard src={JavaScript} alt="JS icon" imgStyles={"w-20 mx-auto"} name={"JavaScript"}></SkillCard>
+                    <SkillCard src={typescript} alt="JS icon" imgStyles={"w-20 mx-auto mt-6"} name={"TypeScript"}></SkillCard>
                     <SkillCard src={Nodejs} alt="Node icon" imgStyles={"w-20 mx-auto mt-4"} name={"Node JS"}></SkillCard>
                     <SkillCard src={mongoDB} alt="Node icon" imgStyles={"w-50 mx-auto mt-4"} name={"Mongo DB"}></SkillCard>
                     <SkillCard src={TailwindCss} alt="Tailwind icon" imgStyles={"w-20 mx-auto mt-7"} name={"Tailwind CSS"}></SkillCard>

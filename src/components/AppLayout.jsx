@@ -8,8 +8,6 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-import ParticlesBackground from '../components/ParticlesBackground';
-
 
 function AppLayout() {
     useEffect(() => {
@@ -21,7 +19,6 @@ function AppLayout() {
 
     return (
         <div className='border-[15px] border-white'>
-            <ParticlesBackground />
             <Navbar />
             <Home />
             <About />
