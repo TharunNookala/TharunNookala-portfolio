@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import ProfileImage from '../assets/profile-img.JPG'
-import Resume from '../assets/TharunNookala_FSD.pdf';
+import Resume from '../assets/TharunNookala.pdf';
 
 const Home = () => {
     const navigate = useNavigate()
