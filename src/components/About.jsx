@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div name="about" className="w-full h-full md:h-screen rounded-lg flex flex-col md:flex-row items-center justify-center p-2">
             <div className=' py-2 my-2 mx-4 border-2 rounded-lg' data-aos='fade-up'>
-                <p className='lg:text-2xl text-[15px] lg:font-semibold md:w-72 md:text-xl lg:w-[400px] text-white p-4'>
+                <p className='text-[15px] lg:font-semibold md:w-72 md:text-xl lg:w-[400px] text-white p-4'>
                     I am a Full Stack(MERN) Developer, passionate about Front End Web Development, with 2 years of proven professional experience in front end. I'm skilled in technologies such as  
                     <span className='italic text-gray-500'> React JS, Next JS, JavaScript, Redux, Redux Toolkit, 
                     Tailwind CSS</span> which are the most used tech stack for beautiful responsive UI built today. I am also skilled in backend technologies such as
