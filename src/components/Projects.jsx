@@ -16,7 +16,7 @@ const Projects = () => {
                     <div key={index}  className='w-full h-full sm:min-w-[600px] relative md:w-auto sm:min-h-[600px] shadow-xl flex flex-col p-4 my-4 mx-2 rounded-lg duration-300 border-2 sm:mb-2'>
                         <img src={`${project.image}`} alt={project.name} className='object-contain sm:bg-cover w-full h-full'/>
                         <button className='lg:hidden block self-center bg-[#1d1d1d] w-40 rounded-md font-medium my-6  px-6 py-3'><a href={project.live} >Live</a></button>
-                        <div className='absolute top-0 left-0 right-0 bottom-0 opacity-0  hover:text-white hover:bg-[rgb(1,1,76)] hover:opacity-90 p-4 w-full h-full flex flex-col items-center justify-center'>
+                        <div className='hidden absolute top-0 left-0 right-0 bottom-0 opacity-0  hover:text-white hover:bg-[rgb(1,1,76)] hover:opacity-90 p-4 w-full h-full lg:flex flex-col items-center justify-center'>
                         <h2 className=' text-5xl font-extrabold text-center pt-6 pb-2 mt-10'>{project.name}</h2>
                             <p className='text-center w-4/5 flex justify-center items-center text-xl font-bold mt-2'>
                               Tech stack used&rarr;
