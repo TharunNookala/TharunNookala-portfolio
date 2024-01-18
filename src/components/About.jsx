@@ -1,8 +1,10 @@
 import React from 'react'
+import HeroSection from './HeroSection'
 
 const About = () => {
     return (
-        <div name="about" className="w-full h-full md:h-screen rounded-lg flex flex-col md:flex-row items-center justify-center p-2">
+        <HeroSection>
+        <div name="about" className="w-full h-full md:min-h-[800px] rounded-lg flex flex-col md:flex-row items-center justify-center p-2]">
             <div className=' py-2 my-2 mx-4 border-2 rounded-lg' data-aos='fade-up'>
                 <p className='text-[15px] lg:font-semibold md:w-72 md:text-xl lg:w-[400px] text-white p-4'>
                     I am a Full Stack(MERN) Developer, passionate about Front End Web Development, with 2 years of proven professional experience in front end. I'm skilled in technologies such as  
@@ -14,7 +16,7 @@ const About = () => {
                 </p>
             </div >
             <div className='p-4 md:max-w-[600px]'>
-                <div className="p-4 bg-white rounded-lg shadow-lg my-2">
+                <div className="p-4 rounded-lg shadow-lg my-2">
                     <h3 className="text-xl font-semibold mb-2">Experience</h3>
                     <p className='font-bold'>July, 2021 - May, 2023</p>
                     <p className='font-semibold'>Systems Engineer, Infosys Ltd.</p>
@@ -33,7 +35,7 @@ const About = () => {
                     </ul>
                 </div>
 
-                <div className="p-4 bg-white rounded-lg shadow-lg">
+                <div className="p-4 rounded-lg shadow-lg">
                     <h3 className="text-xl font-semibold mb-2">Education</h3>
                     <ul className="list-disc pl-6">
                         <li>Bachelor of Technology in Information Technology,
@@ -44,6 +46,7 @@ const About = () => {
 
             </div>
         </div>
+        </HeroSection>
     )
 }
 

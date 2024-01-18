@@ -11,6 +11,7 @@ import Nodejs from '../assets/nodejs.png'
 import mongoDB from '../assets/mongoDB.png'
 import typescript from '../assets/typescript.png'
 import SkillCard from './SkillCard'
+import HeroSection from './HeroSection'
 
 const list = [
     'VS Code', 'Context API', 'Reducers', 'Redux', 'Redux Tool Kit', 'React-Router', 'Node JS', 'Mongo DB', 'Figma', 'Github', 'Agile', 'Scrum', 'Collaborative', 'Positive Attitude', 'Self-taught'
@@ -18,20 +19,21 @@ const list = [
 
 const Skills = () => {
     return (
-        <div name="skills" className='w-full h-full font-bold flex items-center justify-center py-4'>
+      <HeroSection>
+        <div name="skills" className='w-full h-full flex items-center justify-center py-4'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='overflow-hidden items-center whitespace-nowrap'>
                     <ul className='flex md:gap-4 text-white  items-center animate-marquee-infinite px-4 mx-2'>
                         {
                             list.map((item) => (
-                                <li key={item} className='inline-block px-4 py-1 bg-gray-800 rounded-full items-center mx-4'>
+                                <li key={item} className='inline-block font-bold px-4 py-1 bg-gray-800 rounded-full items-center mx-4'>
                                     {item}
                                 </li>
                             ))
                         }
                     </ul>
                 </div>
-                <div>
+                <div className='text-center'>
                     <p className='py-4 font-semibold text-xl md:text-3xl text-white'>These are the technologies I've worked with</p>
                 </div>
 
@@ -51,6 +53,7 @@ const Skills = () => {
                 </div>
             </div>
         </div>
+        </HeroSection>
     )
 }
 

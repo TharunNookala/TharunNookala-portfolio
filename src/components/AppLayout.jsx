@@ -3,11 +3,11 @@ import '../App.css';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Home from '../components/Home';
-import Navbar from '../components/NavBar';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import StickyHeader from '../components/StickyHeader';
 
 function AppLayout() {
     useEffect(() => {
@@ -18,8 +18,8 @@ function AppLayout() {
     }, [])
 
     return (
-        <div className='border-[15px] border-white'>
-            <Navbar />
+        <div className='w-screen flex items-center flex-col gap-10'>
+            <StickyHeader />
             <Home />
             <About />
             <Skills />

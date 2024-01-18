@@ -1,9 +1,11 @@
 
 const SkillCard = ({ src, name, imgStyles }) => {
     return (
-        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-white rounded'>
-            <img className={imgStyles} src={src} alt="Next icon" />
-            <p className='my-4 mt'>{name}</p>
+        <div className="flex flex-col items-center">
+        <div className='h-20 w-20 flex items-center justify-center shadow-md shadow-[#040c16]  duration-500 p-2 bg-white rounded overflow-hidden'>
+            <img className={`imgStyles object-fill`} src={src} alt="tech icons" />
+        </div>
+            <p className='text-sm mt-2'>{name}</p>
         </div>
     )
 }
