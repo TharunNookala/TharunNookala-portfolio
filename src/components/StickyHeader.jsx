@@ -51,7 +51,7 @@ const StickyHeader = () => {
         <div onClick={handleNav} className='sticky cursor-pointer lg:hidden z-50'>
                 {!nav ? <AiOutlineMenu className='text-white absolute right-0' size={23} /> : <AiOutlineClose className='text-white absolute right-0' size={23} />}
             </div>
-            <div className={nav ? 'fixed left-0 top-0 w-full h-1/2 border-2 border-r-gray-900 bg-[#000300] opacity-80 ease-in-out duration-500' : 'ease-in-out duration-500 w-full fixed top-[-100%] left-0'}>
+            <div className={nav ? 'fixed left-0 top-0 w-full border-2 border-r-gray-900 bg-[#000300] opacity-80 ease-in-out duration-500' : 'ease-in-out duration-500 w-full fixed top-[-100%] left-0'}>
                 <h1 className='w-full text-3xl font-bold mt-8 mb-4 px-4'>&lt;tharun/&gt;</h1>
                 <ul className='uppercase p-4 text-white'>
                     <li className='p-4 border-b border-gray-500 cursor-pointer text-white'><Link smooth={true} duration={500} to="about" >About</Link></li>
