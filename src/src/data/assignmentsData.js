@@ -5,8 +5,6 @@ import OTTWebsite from "../assets/OTTWebsite.jpg";
 import CSVtoTable from "../assets/CSVtoTable.jpg";
 import Chatbot from "../assets/Chatbot.png";
 import weather from "../assets/weather.png";
-import Mantra from "../assets/mantra.png";
-import MultiList from "../assets/MultiList.png";
 
 export const assignmentsData = [
   {
@@ -76,27 +74,7 @@ export const assignmentsData = [
     techstack: "React, Tailwind Css",
     description:
       "A react app where we can upload a csv file and can be converted into table using @mui. Also we can filter the table contents using user input in search bar",
-    github: "https://github.com/TharunNookala/csv-to-table-in-react",
+    github: "https://github.com/TharunNookala/Eat-N-Split",
     live: "https://tharunnookala-csv-to-table.netlify.app/",
-  },
-  {
-    id: 8,
-    name: "Age based profile table",
-    image: Mantra,
-    techstack: "React, Redux, Tailwind Css",
-    description:
-      "Fill the details in the form, upon submitting profile cards are created and partitioned based on th age range. We can also search for profile cards based on age or name. In-range age based sorting is implemented.",
-    github: "https://github.com/TharunNookala/Mantra-Task",
-    live: "https://tharunnookala-age-based-table.netlify.app/",
-  },
-  {
-    id: 9,
-    name: "Multi-select combo-box",
-    image: MultiList,
-    techstack: "React, CSS",
-    description:
-      "A dropdown where we can select multiple options and also can search and choose to select. No libraries used, purely built from scratch.",
-    github: "https://github.com/TharunNookala/MultiList-Component",
-    live: "https://tharunnookala-multi-list.netlify.app/",
   },
 ];

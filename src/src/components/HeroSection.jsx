@@ -23,7 +23,7 @@ const HeroSection = ({children}) => {
                             </p>}
                     <IoIosCloseCircleOutline fill="gray" size={20} onClick={handleClose}/>
                 </div>
-                <div className="bg-[rbga(16,16,16,0.7)] flex items-center justify-center">
+                <div className="bg-[rbga(16,16,16,0.7)]">
                     {children}
                 </div>
             </div>

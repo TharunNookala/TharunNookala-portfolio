@@ -43,7 +43,7 @@ const StickyHeader = () => {
                 </li>
             </ul>
             <div className='w-full px-2 flex justify-end'>
-                <NavLink to="/assignments" className="w-[200px] cursor-pointer text-xl font-semibold hover:bg-[#f2f2f20d] md:my-1 mx-auto md:mx-0 py-2 text-center rounded-md md:ml-3">
+                <NavLink to="/assignments" className="w-[200px] cursor-pointer text-xl font-semibold hover:bg-[#f2f2f20d] hover:scale-110 md:my-1 mx-auto md:mx-0 py-2 text-center rounded-md md:ml-3">
                     Assignments &rarr;
                 </NavLink>
             </div>
