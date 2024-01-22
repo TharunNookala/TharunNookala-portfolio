@@ -3,7 +3,10 @@ import ImageMaskGenerator from "../assets/ImageMaskGenerator.jpg";
 import TransactionTable from "../assets/TransactionTable.jpg";
 import OTTWebsite from "../assets/OTTWebsite.jpg";
 import CSVtoTable from "../assets/CSVtoTable.jpg";
-import Chatbot from "../assets/Chatbot.jpg";
+import Chatbot from "../assets/Chatbot.png";
+import weather from "../assets/weather.png";
+import Mantra from "../assets/mantra.png";
+import MultiList from "../assets/MultiList.png";
 
 export const assignmentsData = [
   {
@@ -18,6 +21,16 @@ export const assignmentsData = [
   },
   {
     id: 2,
+    name: "Weather-2-Day",
+    image: weather,
+    techstack: "React.js, Tailwind Css, weather API",
+    description:
+      "A react Weather forecast web app, where data fetched through a static API which has fixed filters of location and other properties.",
+    github: "https://github.com/TharunNookala/Shoshin-Tech-assignment",
+    live: "https://tharunnookala-weather-2-day.netlify.app/",
+  },
+  {
+    id: 3,
     name: "A Next JS Landing Page",
     image: CometLabs,
     techstack: "Next.js, Tailwind Css",
@@ -27,7 +40,7 @@ export const assignmentsData = [
     live: "https://comet-labs-assignment.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Image Mask generator",
     image: ImageMaskGenerator,
     techstack: "React, Tailwind Css",
@@ -37,7 +50,7 @@ export const assignmentsData = [
     live: "https://tharunnookala-image-mask-generator.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     name: "Transactions Table",
     image: TransactionTable,
     techstack: "React, Redux Toolkit, React-router-dom, Tailwind Css",
@@ -47,7 +60,7 @@ export const assignmentsData = [
     live: "https://tharunnookala-transaction-table.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     name: "An OTT website",
     image: OTTWebsite,
     techstack: "React, Redux Toolkit, React-router-dom, Tailwind Css",
@@ -57,13 +70,33 @@ export const assignmentsData = [
     live: "https://tharunnookala-movie-data.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     name: "CSV to Table Generator",
     image: CSVtoTable,
     techstack: "React, Tailwind Css",
     description:
       "A react app where we can upload a csv file and can be converted into table using @mui. Also we can filter the table contents using user input in search bar",
-    github: "https://github.com/TharunNookala/Eat-N-Split",
+    github: "https://github.com/TharunNookala/csv-to-table-in-react",
     live: "https://tharunnookala-csv-to-table.netlify.app/",
+  },
+  {
+    id: 8,
+    name: "Age based profile table",
+    image: Mantra,
+    techstack: "React, Redux, Tailwind Css",
+    description:
+      "Fill the details in the form, upon submitting profile cards are created and partitioned based on th age range. We can also search for profile cards based on age or name. In-range age based sorting is implemented.",
+    github: "https://github.com/TharunNookala/Mantra-Task",
+    live: "https://tharunnookala-age-based-table.netlify.app/",
+  },
+  {
+    id: 9,
+    name: "Multi-select combo-box",
+    image: MultiList,
+    techstack: "React, CSS",
+    description:
+      "A dropdown where we can select multiple options and also can search and choose to select. No libraries used, purely built from scratch.",
+    github: "https://github.com/TharunNookala/MultiList-Component",
+    live: "https://tharunnookala-multi-list.netlify.app/",
   },
 ];
