@@ -11,7 +11,7 @@ const Projects = () => {
   if(!data) return  <div className='w-screen h-screen items-center justify-center bg-gray-500'>Loading...</div>
   return (
     <HeroSection>
-       <div className='w-[90%] max-h-[80vh] grid  md:items-end overflow-y-scroll overflow-x-hidden no-scrollbar scrollbar-hide scroll-smooth p-2'>
+       <div name="projects" className='w-[90%] max-h-[80vh] grid  md:items-end overflow-y-scroll overflow-x-hidden no-scrollbar scrollbar-hide scroll-smooth p-2'>
                 {data.map((project, index) => (
                     <div key={index}  className='w-full h-full sm:min-w-[600px] relative md:w-auto sm:min-h-[600px] shadow-xl flex flex-col p-4 my-4 mx-2 rounded-lg duration-300 border-2 sm:mb-2'>
                         <img src={`${project.image}`} alt={project.name} className='object-contain sm:bg-cover w-full h-full'/>
