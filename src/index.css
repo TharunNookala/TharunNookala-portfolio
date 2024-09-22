@@ -9,7 +9,7 @@ body {
     --background : #101010;
     --on-background : #f2f2f2;
     scroll-behavior: smooth;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif     */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    
 }
 
 @layer utilities {
